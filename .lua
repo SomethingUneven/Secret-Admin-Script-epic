@@ -3,8 +3,6 @@ sound.SoundId = "rbxassetid://261082034"
 sound.Parent = game:GetService("SoundService")
 sound:Play()
 
-wait(0.1)
-
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Commands in Dev Console";
 	Text  = "Press F9 To view commands!";
